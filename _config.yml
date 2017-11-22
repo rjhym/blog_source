@@ -78,6 +78,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/rjhym/rjhym.github.io.git
+  repo: https://github.com/rjhym/rjhym.github.com.git
   branch: master 
   
