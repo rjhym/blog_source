@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 冷峰的博客
 subtitle:
 description:
-author: John Doe
+author: He Yongming 
 language:
 timezone:
 
@@ -19,7 +19,7 @@ permalink_defaults:
 
 # Directory
 source_dir: source
-public_dir: public
+public_dir: public/rjhym.github.com
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -77,4 +77,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/rjhym/rjhym.github.io.git
+  branch: master 
+  
